@@ -13,6 +13,16 @@ export class Paken {
   async exec(cmd: string) {
     const cmds = cmd.split(' ')
     const process = spawn(cmds.shift() as string, [...cmds])
+    process.stdout.on('data', (data) => {
+        console.log(`stdout: ${data}`);
+    });
+    process.stderr.on('data', (data) => {
+        console.log(`stderr: ${data}`);
+    });
+    process.on('close', (code) => {
+        console.log(`child process exited with code ${code}`);
+    });
+
   }
 
   private async setEnv(key: string, val: string | number | boolean) {

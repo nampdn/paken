@@ -6,7 +6,7 @@ import pkg from './package.json';
 module.exports = {
   input: 'src/index.ts',
   output: {
-    name: 'hukk',
+    name: 'paken',
     file: pkg.main,
     format: 'cjs',
   },

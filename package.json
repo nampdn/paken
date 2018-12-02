@@ -1,16 +1,16 @@
 {
-  "name": "hukk",
-  "version": "1.1.6",
-  "description": "Portable webhook for NodeJS micro-service",
+  "name": "paken",
+  "version": "0.0.0",
+  "description": "package.json to environment loader",
   "keywords": [
-    "webhook",
-    "http",
-    "api",
-    "hook"
+    "env",
+    "package",
+    "json",
+    "environment"
   ],
-  "main": "dist/hukk.js",
+  "main": "dist/paken.js",
   "typings": "dist/index.d.ts",
-  "repository": "git@github.com:nampdn/hukk.git",
+  "repository": "git@github.com:nampdn/paken.git",
   "author": "Nam Pham <nampdn@protonmail.com>",
   "license": "MIT",
   "private": false,

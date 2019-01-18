@@ -27,7 +27,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "3.0.1",
     "@semantic-release/git": "7.0.5",
-    "@types/jest": "23.3.9",
+    "@types/jest": "23.3.13",
     "@types/node": "10.12.10",
     "@types/read-pkg-up": "^3.0.1",
     "jest": "23.6.0",

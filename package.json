@@ -30,7 +30,7 @@
     "@types/jest": "27.4.0",
     "@types/node": "16.11.19",
     "@types/read-pkg-up": "3.0.1",
-    "jest": "27.4.5",
+    "jest": "27.4.6",
     "rimraf": "3.0.2",
     "rollup": "2.63.0",
     "rollup-plugin-commonjs": "10.1.0",

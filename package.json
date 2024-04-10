@@ -39,7 +39,7 @@
     "rollup-plugin-typescript2": "0.36.0",
     "semantic-release": "23.0.8",
     "ts-jest": "29.1.2",
-    "typescript": "5.4.4"
+    "typescript": "5.4.5"
   },
   "dependencies": {
     "read-pkg-up": "^11.0.0"
